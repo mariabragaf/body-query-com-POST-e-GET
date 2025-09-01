@@ -96,7 +96,7 @@ app.get('/varinhas', (req, res) => {
     }
   
     if (nucleo) {
-      resultado = resultado.filter(n => n.nucleo.toLowerCase().includes(material.toLowerCase()));
+      resultado = resultado.filter(n => n.nucleo.toLowerCase().includes(nucleo.toLowerCase()));
     }
   
     if (comprimento) {
