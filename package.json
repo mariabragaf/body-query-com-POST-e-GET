@@ -5,9 +5,14 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start": "nodemon server.js"
   },
-  "keywords": ["Senai", "BodyQuery", "API"],
+  "keywords": [
+    "Senai",
+    "BodyQuery",
+    "API"
+  ],
   "author": "Maria Eduarda Braga",
   "license": "MIT",
   "description": "Projeto exemplo para filtros e verbos HTTP - GET e POST",
@@ -15,5 +20,14 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariabragaf/body-query-com-POST-e-GET.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariabragaf/body-query-com-POST-e-GET/issues"
+  },
+  "homepage": "https://github.com/mariabragaf/body-query-com-POST-e-GET#readme",
+  "devDependencies": {}
 }
