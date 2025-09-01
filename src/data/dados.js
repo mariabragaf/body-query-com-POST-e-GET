@@ -7,7 +7,7 @@ const bruxos = [
         casa: "Grifinória",
         ano: 7,
         varinha: "Azevinho e pena de fênix, 28cm",
-        mascote: "Coruja (Edwiges)",
+        mascote: "Coruja",
         patrono: "Cervo",
         especialidade: "Sobreviver a Voldemort 😎",
         vivo: false
@@ -18,7 +18,7 @@ const bruxos = [
         casa: "Grifinória",
         ano: 7,
         varinha: "Videira e fibra de dragão, 27cm",
-        mascote: "Gato (Bichento)",
+        mascote: "Gato",
         patrono: "Lontra",
         especialidade: "Magia avançada 📚",
         vivo: true
@@ -29,7 +29,7 @@ const bruxos = [
         casa: "Grifinória",
         ano: 7,
         varinha: "Salgueiro e pelo de unicórnio, 35cm",
-        mascote: "Rato (Perebas)",
+        mascote: "Rato",
         patrono: "Cachorro Jack Russell Terrier",
         especialidade: "Xadrez bruxo ♟️",
         vivo: true
@@ -40,7 +40,7 @@ const bruxos = [
         casa: "Sonserina",
         ano: 7,
         varinha: "Azevinho e pelo de unicórnio, 25cm",
-        mascote: "Sapo (Trevor)",
+        mascote: "Sapo",
         patrono: "Indefinido",
         especialidade: "Poções 💀",
         vivo: true
@@ -51,7 +51,7 @@ const bruxos = [
         casa: "Corvinal",
         ano: 6,
         varinha: "Madeira desconhecida e núcleo não revelado",
-        mascote: "Lebre (Sem nome)",
+        mascote: "Lebre",
         patrono: "Lebre",
         especialidade: "Criaturas mágicas ✨",
         vivo: true
@@ -73,11 +73,11 @@ const varinhas = [
 ];
 
 const animais = [
-    { id: 1, nome: "Edwiges", tipo: "Coruja" },
-    { id: 2, nome: "Bichento", tipo: "Gato" },
-    { id: 3, nome: "Perebas", tipo: "Rato" },
-    { id: 4, nome: "Trevor", tipo: "Sapo" },
-    { id: 5, nome: "Sem nome", tipo: "Lebre" }
+    { id: 1, nome: "Coruja", tipo: "Companhia" },
+    { id: 2, nome: "Gato", tipo: "Companhia" },
+    { id: 3, nome: "Rato", tipo: "Companhia" },
+    { id: 4, nome: "Sapo", tipo: "Companhia" },
+    { id: 5, nome: "Lebre", tipo: "Companhia" }
 ];
 
 const pocoes = [
